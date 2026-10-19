@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trulyy India - Contact Us</title>
+    <link rel="icon" href="images/fav.png" sizes="32x32" />
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <!-- GSAP -->
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+
+
+</head>
+
+<body>
+    <div id="site-header"></div>
+    <script src="js/header.js"></script>
+
+    <section class="inner-bg">
+        <div class="inner-bg-item">
+            <div class="container-fluid">
+                <h1>Contact</h1>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-5 contact-section">
+        <div class="container py-lg-5">
+            <div class="row g-5">
+                <div class="col-lg-7 order-sm-1 order-md-2 order-lg-2">
+                    <div class="text-center mb-4">
+                        <span class="help-badge mb-2">Need help?</span>
+                        <h2 class="fw-bold">We'd love to hear from you</h2>
+                    </div>
+
+                    <div class="form-container">
+                        <form method="POST">
+                            <div class="mb-4">
+                                <label class="form-label fw-semibold">Name*</label>
+                                <input type="text" name="name" id="name" class="form-control" placeholder="Jane Smith">
+                                <small class="text-warning error-msg d-none"></small>
+                            </div>
+
+                            <div class="row mb-4">
+                                <div class="col-md-6">
+                                    <label class="form-label fw-semibold">Email address*</label>
+                                    <input type="email" name="email" id="email" class="form-control"
+                                        placeholder="jane@framer.com">
+                                    <small class="text-warning error-msg d-none"></small>
+                                </div>
+                                <div class="col-md-6 mt-4 mt-md-0">
+                                    <label class="form-label fw-semibold">Phone number*</label>
+                                    <input type="tel" name="phone" id="phone" class="form-control"
+                                        placeholder="+1 (415) 555-0167">
+                                    <small class="text-warning error-msg d-none"></small>
+                                </div>
+                            </div>
+
+                            <div class="mb-4">
+                                <label class="form-label fw-semibold">Message</label>
+                                <textarea name="message" id="message" class="form-control" rows="4"
+                                    placeholder="Write your message here"></textarea>
+                            </div>
+
+                            <button type="submit" id="submitcontact" class="btn btn-submit">Submit</button>
+                            <div class="text-center"><small id="formSuccess" class="text-warning d-none"></small></div>
+
+                        </form>
+                    </div>
+                </div>
+                <div class="col-lg-5 order-sm-2 order-md-1 order-lg-1">
+                    <h1 class="display-5 fw-bold mb-4">Get in touch with us</h1>
+                    <p class="text-muted mb-5">
+                        Our friendly team is here to help. Reach out by phone, email, or through our contact form, we'll
+                        get back to you promptly and make your moving experience smooth from start to finish.
+                    </p>
+
+                    <div class="row g-4">
+                        <div class="col-md-6">
+                            <div class="contact-card">
+                                <div class="icon-circle"><i class="bi bi-telephone-fill"></i></div>
+                                <h5 class="fw-bold">Phone</h5>
+                                <p class="text-muted mb-0"><a href="tel:+917935073707">+91-79-35073707</a> <br> <a
+                                        href="tel:+917923977600">+91-79-23977600</a> <br> +91-9328016885/6/7</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="contact-card">
+                                <div class="icon-circle"><i class="bi bi-envelope-fill"></i></div>
+                                <h5 class="fw-bold">Email</h5>
+                                <p class="text-muted mb-0"><a href="mailto:info@tihr.in">info@tihr.in</a> | <a
+                                        href="mailto:crs@tihr.in">crs@tihr.in</a></p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="contact-card">
+                                <div class="icon-circle"><i class="bi bi-geo-alt-fill"></i></div>
+                                <h5 class="fw-bold">Address</h5>
+                                <p class="text-muted mb-0 small">405, 4th Floor, Sungrace Arcade, Visat Gandhinagar
+                                    Highway, Motera, Ahmedabad - 380005, Gujarat, India</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="contact-card">
+                                <div class="icon-circle"><i class="bi bi-geo-alt-fill"></i></div>
+                                <h5 class="fw-bold">Associate Hotels India - Delhi Sales Office</h5>
+                                <p class="text-muted mb-0 small">1400 B, 14th Floor, Devika Tower, 6 Nehru Place, New Delhi 110019 India</p>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="contact-card">
+                                <div class="icon-circle"><i class="bi bi-envelope-fill"></i></div>
+                                <h5 class="fw-bold">Associate Hotels India - Delhi Sales Office</h5>
+                                <p class="text-muted mb-0"><a href="mailto:info@associatehotelsindia.com">info@associatehotelsindia.com</a> <br> <a
+                                   href="mailto:sales@associatehotelsindia.com">sales@associatehotelsindia.com</a></p>
+                                   <p class="text-muted mb-0 pt-3"><a href="tel:01141729572">011 41729572,73,74</a> | <a
+                                   href="tel:+91-99810057345">+91-9810057345</a> | <a
+                                   href="tel:+91-9711908000">+91-9711908000</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+    <div id="site-footer"></div>
+    <!-- jQuery (required for Fancybox) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <!-- Fancybox JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/custom.js"></script>
+    <script src="js/footer.js"></script>
+     <script>
+        const scriptURL =
+            "https://script.google.com/macros/s/AKfycbxEUQTJEiHTAhElZcxyEcAvMjqjGjWGPWCKXgpOiDQVTqUFajs-FNy6xAy3R6pV7_RuTQ/exec";
+
+        const PhoneValidation = /^(?:\+91[\-\s]?|0)?[6-9]\d{9}$/;
+        const EmailValidation = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+
+        function showFieldError(inputId, message) {
+            let input = document.getElementById(inputId);
+            let error = input.parentElement.querySelector(".error-msg");
+
+            if (!error) return false;
+
+            error.innerText = message;
+            error.classList.remove("d-none");
+            return false;
+        }
+
+        function clearAllErrors() {
+            document.querySelectorAll(".error-msg").forEach((e) => {
+                e.classList.add("d-none");
+                e.innerText = "";
+            });
+        }
+
+        function validateField(id) {
+            let value = document.getElementById(id).value.trim();
+
+            if (!value)
+                return showFieldError(id, "This field is required.");
+
+            if (id === "email" && !EmailValidation.test(value))
+                return showFieldError(id, "Please enter a valid email address.");
+
+            if (id === "phone" && !PhoneValidation.test(value))
+                return showFieldError(id, "Please enter a valid phone number.");
+
+            return true;
+        }
+        document.querySelector("form")
+            .addEventListener("submit", function (event) {
+
+                event.preventDefault();
+                clearAllErrors();
+
+                const fields = ["name", "email", "phone"];
+
+                for (let field of fields) {
+                    if (!validateField(field)) return;
+                }
+
+                let success = document.getElementById("formSuccess");
+                success.classList.remove("d-none");
+                success.innerText = "Please wait we are authenticating!";
+
+                let sendMail = true;
+                let name = document.getElementById("name").value.trim();
+                let email = document.getElementById("email").value.trim();
+                let phone = document.getElementById("phone").value.trim();
+                let message = document.getElementById("message").value.trim();
+
+                const fullURL =
+                    `${scriptURL}?name=${encodeURIComponent(name)}` +
+                    `&email=${encodeURIComponent(email)}` +
+                    `&phone=${encodeURIComponent(phone)}` +
+                    `&message=${encodeURIComponent(message)}` +
+                    `&sendmail=${sendMail}`;
+
+                fetch(fullURL)
+                    .then((response) => response.text())
+                    .then(() => {
+
+                        success.innerText = "Form Submitted Successfully!";
+
+                        setTimeout(() => {
+                            success.classList.add("d-none");
+                            success.innerText = "";
+                        }, 3000);
+
+                        document.querySelector("form").reset();
+                    })
+                    .catch((error) => {
+                        console.log("Error submitting form:", error);
+                    });
+            });
+    </script>
+
+</body>
+
+</html>

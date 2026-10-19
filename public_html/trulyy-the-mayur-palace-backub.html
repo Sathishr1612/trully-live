@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trulyy India - Trulyy The Mayur Palace (Coming Soon)</title>
+    <link rel="icon" href="images/fav.png" sizes="32x32" />
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <!-- GSAP -->
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+
+
+</head>
+
+<body>
+    <div id="site-header"></div>
+    <script src="js/header.js"></script>
+
+    <section class="hero-section">
+    <!-- Hero Carousel -->
+    <div class="hero-carousel">
+      <div class="hero-carousel-inner" id="heroCarouselInner">
+        <!-- Slide 1 -->
+        <div class="hero-carousel-item"
+          style="background-image: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('images/hero/trulyy-the-mayur-palace.webp');">
+          <div class="carousel-content wow animate__fadeInUp">
+            <div class="carousel-subtitle">Trulyy The</div>
+            <h1 class="carousel-title">Mayur Palace</h1>
+            <a href="#" class="carousel-btn text-decoration-none">Book
+              a Stay</a>
+          </div>
+        </div>
+
+        <!-- Slide 2 -->
+        <div class="hero-carousel-item"
+          style="background-image: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('images/hero/the-mayur-palace-green.webp');">
+          <div class="carousel-content wow animate__fadeInUp">
+            <div class="carousel-subtitle">Explore</div>
+            <h1 class="carousel-title">Luxury Hotel</h1>
+            <a href="#" class="carousel-btn text-decoration-none">Book
+              a Stay</a>
+          </div>
+        </div>
+
+        <!-- Slide 3 -->
+        <div class="hero-carousel-item"
+          style="background-image: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('images/hero/the-mayur-palace-tlint.webp');">
+          <div class="carousel-content wow animate__fadeInUp">
+            <div class="carousel-subtitle">EXPERIENCE</div>
+            <h1 class="carousel-title">Luxury<br>Hospitality</h1>
+            <a href="#" class="carousel-btn text-decoration-none">Book
+              a Stay</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Carousel Controls -->
+      <button class="hero-carousel-control prev" onclick="changeSlide(-1)">‹</button>
+      <button class="hero-carousel-control next" onclick="changeSlide(1)">›</button>
+
+      <!-- Carousel Indicators -->
+      <div class="hero-carousel-indicators">
+        <button class="hero-indicator active" onclick="goToSlide(0)"></button>
+        <button class="hero-indicator" onclick="goToSlide(1)"></button>
+        <button class="hero-indicator" onclick="goToSlide(2)"></button>
+      </div>
+    </div>
+  </section>
+
+   <section class="default-padding">
+    <div class="container text-center">
+        <button class="btn">Comming Soon</button>
+      <h2 class="mb-3 display-3">Exciting project in progress</h2>
+      <p class="lead mb-4">We're preparing something special at Trulyy The Mayur Palace. Check back soon for updates.</p>
+    </div>
+  </section>
+    
+
+
+
+
+
+    <div id="site-footer"></div>
+    <!-- jQuery (required for Fancybox) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <!-- Fancybox JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/custom.js"></script>
+    <script src="js/footer.js"></script>
+
+</body>
+
+</html>

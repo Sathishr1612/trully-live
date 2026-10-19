@@ -1,0 +1,55 @@
+@font-face {
+  font-family: Cabinetgrotesk Variable;
+  src: url("https://cdn.prod.website-files.com/685077c466f113761c6d796b/6853fde05fec08f8d467c605_CabinetGrotesk-Variable.ttf") format("truetype");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Zodiak Variable;
+  src: url("https://cdn.prod.website-files.com/685077c466f113761c6d796b/6853fdf5a6339fac04043129_Zodiak-Variable.ttf") format("truetype");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+    font-family: Recklesstrial;
+    src: url(https://cdn.prod.website-files.com/6549375e368fd4067d8ff385/654939a9eb1c3f62f3d341b7_RecklessTRIAL-Light.otf)format("opentype");
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: Recklesstrial;
+    src: url(https://cdn.prod.website-files.com/6549375e368fd4067d8ff385/654939a947491aa4b0f1b5c1_RecklessTRIAL-Regular.otf)format("opentype");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face{font-family:Saoldisplay;src:url(https://cdn.prod.website-files.com/682326a98ba2284fb817aa16/686212a075f1889a9c66742e_SaolDisplay-Light.woff)format("woff");font-weight:300;font-style:normal;font-display:swap}
+
+h1 {
+    font-family: Saoldisplay,"Times New Roman",sans-serif;
+    font-size: 3rem;
+    font-weight: 300;
+    line-height: 1.5;
+}
+
+h1 {
+    font-family: Zodiak Variable, Georgia, sans-serif;
+    font-size: 4rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+body {
+    background-color: var(--background-color--background-primary);
+    color: var(--text-color--text-primary);
+    font-family: Cabinetgrotesk Variable, Georgia, sans-serif;
+    font-size: 1rem;
+    line-height: 1.5;
+}

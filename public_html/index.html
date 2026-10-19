@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Explore India - Kumbha Residency</title>
+  <link rel="icon" href="images/fav.png" sizes="32x32" />
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <!-- GSAP -->
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+
+
+</head>
+
+<body>
+  <div id="site-header"></div>
+  <script src="js/header.js"></script>
+
+
+  <section class="hero-section">
+    <!-- Hero Carousel -->
+    <div class="hero-carousel">
+      <div class="hero-carousel-inner" id="heroCarouselInner">
+        <!-- Slide 1 -->
+        <div class="hero-carousel-item"
+          style="background-image: url('images/shakti-vilas.webp');">
+          <div class="carousel-content">
+            <!-- <div class="carousel-subtitle">Prime</div> -->
+            <h1 class="carousel-title">Travel<br>Carefree</h1>
+            <a href="trulyy-the-shakti-vilas.html" class="carousel-btn text-decoration-none">EXPLORE NOW</a>
+          </div>
+        </div>
+
+       <!-- Slide 2 -->
+        <div class="hero-carousel-item"
+          style="background-image: url('images/gir-lion-safari-camp.webp');">
+          <div class="carousel-content">
+            <!-- <div class="carousel-subtitle">Inspired</div> -->
+            <h1 class="carousel-title">Explore<br>Avidly</h1>
+            <a href="trulyy-the-gir-lion-safari-camp.html" class="carousel-btn text-decoration-none">EXPLORE NOW</a>
+          </div>
+        </div>
+
+        <!-- Slide 3 -->
+        <div class="hero-carousel-item"
+          style="background-image: url('images/kanooja-palace.webp');">
+          <div class="carousel-content">
+            <!-- <div class="carousel-subtitle">Fully</div> -->
+            <h1 class="carousel-title">Experience <br>Passionately</h1>
+            <a href="trulyy-the-kanooja-palace.html" class="carousel-btn text-decoration-none">EXPLORE NOW</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Carousel Controls -->
+      <button class="hero-carousel-control prev" onclick="changeSlide(-1)">‹</button>
+      <button class="hero-carousel-control next" onclick="changeSlide(1)">›</button>
+
+      <!-- Carousel Indicators -->
+      <div class="hero-carousel-indicators">
+        <button class="hero-indicator active" onclick="goToSlide(0)"></button>
+        <button class="hero-indicator" onclick="goToSlide(1)"></button>
+        <button class="hero-indicator" onclick="goToSlide(2)"></button>
+      </div>
+    </div>
+  </section>
+
+  <section class="resort-section default-padding">
+    <div id="maharana" class="container bg-primary p-5 rounded">
+      <div class="row align-items-center">
+
+        <!-- Left Image -->
+        <div class="col-lg-7 resort-image">
+          <img src="images/jawai-leopard-home.webp" loading="lazy" alt="The Maharana Bagh Resort">
+        </div>
+
+        <!-- Right Content -->
+        <div class="col-lg-5 resort-content">
+          <p class="project-name font-52">Trulyy</p>
+          <h2 class="resort-title">
+            The Jawai Leopard Kingdom
+          </h2>
+          <p class="resort-text">
+            Trulyy The Jawai Leopard Kingdom is a luxury wildlife resort set among ancient granite hills in Jawai, Rajasthan. 
+          </p>
+
+          <a href="trulyy-the-jawai-leopard-kingdom.html">
+            <button class="liquid-btn">
+              <div class="liquid"></div>
+              <span>Explore Now</span>
+            </button>
+          </a>
+        </div>
+
+      </div>
+    </div>
+    <div id="amar" class="container bg-dark-green p-5 rounded mt-5">
+      <div class="row align-items-center">
+
+        <!-- Left Image -->
+        <div class="col-lg-7 resort-image">
+          <img src="images/kanooja-palace-thumb.webp" loading="lazy" alt="The Maharana Bagh Resort">
+        </div>
+
+        <!-- Right Content -->
+        <div class="col-lg-5 resort-content">
+          <p class="project-name font-52">Trulyy</p>
+          <h2 class="resort-title">
+            The Kanooja Palace
+          </h2>
+
+          <p class="resort-text">
+            Trulyy The Kanooja Palace, Kumbhalgarh is a luxury lakefront resort and spa managed and marketed by Trulyy India.
+          </p>
+
+          <a href="trulyy-the-kanooja-palace.html">
+            <button class="liquid-btn">
+              <div class="liquid"></div>
+              <span>Explore Now</span>
+            </button>
+          </a>
+        </div>
+
+      </div>
+    </div>
+    <div id="sakthi" class="container bg-dark-brown p-5 rounded mt-5">
+      <div class="row align-items-center">
+
+        <!-- Left Image -->
+        <div class="col-lg-7 resort-image">
+          <img src="images/sakthi-vilas-thumb.webp" loading="lazy" alt="The Maharana Bagh Resort">
+        </div>
+
+        <!-- Right Content -->
+        <div class="col-lg-5 resort-content">
+          <p class="project-name font-52">Trulyy</p>
+          <h2 class="resort-title">
+            The Shakti Vilas
+          </h2>
+
+          <p class="resort-text">
+            Shakti Vilas by Trulyy India is a premier luxury resort in Udaipur, nestled amidst the Aravalli hills.
+            Blending royal architecture with rustic charm, it offers unmatched comfort and warm hospitality.
+          </p>
+
+          <a href="trulyy-the-shakti-vilas.html">
+            <button class="liquid-btn">
+              <div class="liquid"></div>
+              <span>Explore Now</span>
+            </button>
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="project-showcase-section default-padding">
+    <div id="projectShowcaseCarousel" class="carousel slide project-showcase-carousel" data-bs-ride="carousel"
+      data-bs-interval="6000">
+
+      <div class="carousel-inner">
+
+        <!-- Slide 1 -->
+        <div class="carousel-item active">
+          <div class="project-slide" style="background-image:url('images/lion-pride-dry-forest.webp');">
+
+            <div class="project-overlay"></div>
+
+            <div class="container h-100">
+              <div class="row h-100 align-items-center">
+                <div class="col-lg-6">
+                  <div class="project-content">
+                    <span class="project-location">Sasan Gir</span>
+                    <h1 class="project-title">Trulyy The Gir Lion Safari Camp</h1>
+                    <p class="project-desc">
+                      The dense jungles of Sasan Gir rest over the picturesque
+                      river beds and historic forts of Veraval and Junagadh.
+                    </p>
+                    <a href="trulyy-the-gir-lion-safari-camp.html">
+                      <button class="liquid-btn">
+                        <div class="liquid"></div>
+                        <span>Explore Now</span>
+                      </button>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Slide 2 -->
+        <div class="carousel-item">
+          <div class="project-slide" style="background-image:url('images/jawai-leopord.webp');">
+
+            <div class="project-overlay"></div>
+
+            <div class="container h-100">
+              <div class="row h-100 align-items-center">
+                <div class="col-lg-6">
+                  <div class="project-content">
+                    <span class="project-location">Jawai</span>
+                    <h1 class="project-title">Trulyy The Jawai Leopard Kingdom</h1>
+                    <p class="project-desc">
+                      Experience luxury living amidst nature with guided safaris,
+                      serene landscapes and unforgettable wildlife encounters.
+                    </p>
+                    <a href="trulyy-the-jawai-leopard-kingdom.html">
+                      <button class="liquid-btn">
+                        <div class="liquid"></div>
+                        <span>Explore Now</span>
+                      </button>
+                    </a>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Carousel Indicators -->
+      <div class="project-carousel-indicators">
+        <button class="project-indicator active" data-bs-target="#projectShowcaseCarousel" data-bs-slide-to="0"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button class="project-indicator" data-bs-target="#projectShowcaseCarousel" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+      </div>
+    </div>
+  </section>
+  <section class="popularvisit">
+    <div class="header">
+      <h2>The Best Hotels & Resorts In Rajasthan & Gujarat</h2>
+      <div class="header-text">
+        Indulge in refined comfort with Trulyy India Hotels & Resorts, where luxury meets authentic Indian hospitality. Our collection of luxury resorts, premium rooms, and curated amenities across Rajasthan and Gujarat is perfect for serene retreats, romantic getaways, and cultural escapes—offering a seamless blend of elegance, warmth, and unforgettable experiences.
+      </div>
+    </div>
+
+    <!-- First Row - Continuous Right to Left -->
+    <div class="slider-wrapper">
+      <div class="slider-controls">
+        <button type="button" class="control-btn prev-btn" data-slider="1" aria-label="Previous Hotel">‹</button>
+        <button type="button" class="control-btn next-btn" data-slider="1" aria-label="Next Hotel">›</button>
+      </div>
+      <div class="marquee-container">
+        <div class="marquee" id="marquee1"></div>
+      </div>
+    </div>
+
+    <!-- Second Row - Continuous Left to Right -->
+    <div class="slider-wrapper">
+      <div class="slider-controls">
+        <button type="button" class="control-btn prev-btn" data-slider="2" aria-label="Previous Hotel">‹</button>
+        <button type="button" class="control-btn next-btn" data-slider="2" aria-label="Next Hotel">›</button>
+      </div>
+      <div class="marquee-container">
+        <div class="marquee" id="marquee2"></div>
+      </div>
+    </div>
+  </section>
+  <section class="petfriendly-section">
+    <div class="container-fluid px-4 px-md-5">
+      <div class="petfriendly">
+        <a href="https://www.trulyy.in/#"><img src="images/pet-friendly.webp" loading="lazy"
+            class="img-fluid rounded-3" alt="pet friendly"></a>
+      </div>
+    </div>
+  </section>
+  <section class="wedding-section default-padding">
+        <div class="container">
+            <div class="row align-items-center mb-4 mb-lg-5">
+                <!-- Left Section - Title -->
+                <div class="col-lg-6 col-md-12 mb-3 mb-lg-0">
+                    <h1 class="section-title">Trulyy India<br>Hotels & Resorts</h1>
+                </div>
+
+                <!-- Right Section - Description -->
+                <div class="col-lg-5 col-md-12">
+                    <p class="description-text">
+                        Fast-growing Indian hospitality brand built on a simple yet powerful belief — every journey should feel personal, immersive, and truly memorable.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Cards Section -->
+            <div class="row mt-2 pt-4 gx-5">
+                <!-- Destination Wedding Card -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="card-custom">
+                        <h3 class="card-title-custom">Inspired Hospitality</h3>
+                        <p class="card-subtitle-custom" style="text-transform: none; font-size: 14px; font-weight: 300; letter-spacing:normal;">Rooted in Indian values and driven by modern hospitality standards, Trulyy India has become a preferred choice for families, leisure travellers, wildlife enthusiasts, wedding planners, and corporates seeking immersive escapes across India.</p>
+                    </div>
+                </div>
+
+                <!-- Corporate Meetings Card -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="card-custom">
+                        <h3 class="card-title-custom">Our Promise</h3>
+                        <p class="card-subtitle-custom" style="text-transform: none; font-size: 14px; font-weight: 300; letter-spacing:normal;">Trulyy India is more than a hospitality brand — it is a gateway to India’s culture, wilderness, warmth, and wonder. <strong>Stay with us to experience stories, landscapes, emotions, and moments that truly stay with you.</strong></p>
+                    </div>
+                </div>
+
+                <!-- Events Card -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="card-custom">
+                        
+                        <h3 class="card-title-custom">Our Mission</h3>
+                        <p class="card-subtitle-custom" style="text-transform: none; font-size: 14px; font-weight: 300; letter-spacing:normal;">To create authentic and personalized travel experiences that connect guests with the rich culture, heritage, and natural beauty of India, while delivering exceptional hospitality and sustainable practices.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+  
+
+  <div id="site-footer"></div>
+
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/custom.js"></script>
+  <script src="js/footer.js"></script>
+</body>
+
+</html>

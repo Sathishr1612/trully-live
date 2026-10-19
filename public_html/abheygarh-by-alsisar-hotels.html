@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trulyy India - Abheygarh By Alsisar Hotels</title>
+  <link rel="icon" href="images/fav.png" sizes="32x32" />
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+  <!-- GSAP -->
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+
+
+</head>
+
+<body>
+  <div id="site-header"></div>
+  <script src="js/header.js"></script>
+
+<section class="hero-section">
+    <!-- Hero Carousel -->
+    <div class="hero-carousel">
+      <div class="hero-carousel-inner" id="heroCarouselInner">
+        <!-- Slide 1 -->
+        <div class="hero-carousel-item"
+          style="background-image: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('images/hero/abheygarh-palace.webp');">
+          <div class="carousel-content wow animate__fadeInUp">
+            <div class="carousel-subtitle">Trulyy India</div>
+            <h1 class="carousel-title">Abheygarh By Alsisar</h1>
+            <button class="carousel-btn">Book a Stay</button>
+          </div>
+        </div>
+
+        <!-- Slide 2 -->
+        <div class="hero-carousel-item"
+          style="background-image: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('images/hero/abheygarh-fort.webp');">
+          <div class="carousel-content wow animate__fadeInUp">
+            <div class="carousel-subtitle">Abheygarh</div>
+            <h1 class="carousel-title">Luxury Boutique Hotel</h1>
+            <button class="carousel-btn">Book a Stay</button>
+          </div>
+        </div>
+
+        <!-- Slide 3 -->
+        <div class="hero-carousel-item"
+          style="background-image: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('images/hero/abheygarh-fort-blue.webp');">
+          <div class="carousel-content wow animate__fadeInUp">
+            <div class="carousel-subtitle">EXPERIENCE</div>
+            <h1 class="carousel-title">Luxury<br>Hospitality</h1>
+            <button class="carousel-btn">Book a Stay</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Carousel Controls -->
+      <button class="hero-carousel-control prev" onclick="changeSlide(-1)">‹</button>
+      <button class="hero-carousel-control next" onclick="changeSlide(1)">›</button>
+
+      <!-- Carousel Indicators -->
+      <div class="hero-carousel-indicators">
+        <button class="hero-indicator active" onclick="goToSlide(0)"></button>
+        <button class="hero-indicator" onclick="goToSlide(1)"></button>
+        <button class="hero-indicator" onclick="goToSlide(2)"></button>
+      </div>
+    </div>
+  </section>
+
+  <section class="head-wrapper default-padding">
+    <div class="container-fluid">
+      <h2>Abheygarh By Alsisar Hotels is Rajasthan’s newest heritage gem, <span>offering a majestic setting for couples seeking a royal destination wedding.</span> Rising like a golden dream from the desert, this stunning palace in Jaisalmer combines timeless grandeur with modern luxury to create an unforgettable backdrop for your special day.</h2>
+    </div>
+  </section>
+
+  <section class="video-scroll-container">
+    <div class="scroll-container" id="scrollContainer">
+      <div class="sticky-wrapper">
+        <div class="video-container" id="videoBox">
+          <video autoplay muted loop playsinline>
+            <source src="videos/abheygarh-by-lsisar-hotel.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+
+          <div class="overlay" id="overlay">
+            <h4>Abheygarh By Alsisar Hotel</h4>
+            <a href="#">
+              <button class="liquid-btn btn-primary">
+                <div class="liquid"></div>
+                <span class="text-uppercase">Book A Stay</span>
+              </button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <section class="resort-section">
+    <div id="package-section" class="container bg-primary p-5 rounded wow animate__fadeInUp">
+      <div class="row align-items-center">
+
+        <!-- Left Image -->
+        <div class="col-lg-7 resort-image">
+          <img src="images/abheygarh/abheygarh-pack.webp" loading="lazy" alt="Black Buck Trils Resort">
+        </div>
+
+        <!-- Right Content -->
+        <div class="col-lg-5 resort-content">
+          <p class="project-name">Abheygarh By Alsisar Hotel</p>
+          <h2 class="resort-title m-0 mb-4">Luxury Boutique Hotel</h2>
+          <ul class="list-unstyled">
+            <li class="d-flex align-items-center lh-lg">
+              <i class="fa-solid fa-circle-check me-2"></i>
+              <span>Welcome drink on arrival</span>
+            </li>
+            <li class="d-flex align-items-center lh-lg">
+              <i class="fa-solid fa-circle-check me-2"></i>
+              <span>MAPAI: Meals</span>
+            </li>
+            <li class="d-flex align-items-center lh-lg">
+              <i class="fa-solid fa-circle-check me-2"></i>
+              <span>Indoor & outdoor games</span>
+            </li>
+            <li class="d-flex align-items-center lh-lg">
+              <i class="fa-solid fa-circle-check me-2"></i>
+              <span>Swimming pool</span>
+            </li>
+            <li class="d-flex align-items-center lh-lg">
+              <i class="fa-solid fa-circle-check me-2"></i>
+              <span>Tea/Coffee with 1 sweet & 1 savoury snack</span>
+            </li>
+            <li class="d-flex align-items-center lh-lg">
+              <i class="fa-solid fa-circle-check me-2"></i>
+              <span>Free Wi-Fi</span>
+            </li>
+            <li class="d-flex align-items-center lh-lg">
+              <i class="fa-solid fa-circle-check me-2"></i>
+              <span>10% off laundry & other F&B services</span>
+            </li>
+          </ul>
+
+
+          <div class="row g-0 my-2">
+            <div class="col-md-6 mb-3">
+              <div class="checkinout border shadow-sm rounded rounded-end-0 py-1 px-4 text-center">
+                <p class="m-0 checkin">Check In</p>
+                <p class="m-0 checkin fs-6">2:00 PM</p>
+              </div>
+            </div>
+            <div class="col-md-6 mb-3">
+              <div class="checkinout border shadow-sm rounded rounded-start-0 py-1 px-4 border-start text-center">
+                <p class="m-0 checkin">Check Out</p>
+                <p class="m-0 checkin fs-6">11:00 AM</p>
+              </div>
+            </div>
+          </div>
+
+          <a href="#">
+            <button class="liquid-btn">
+              <div class="liquid"></div>
+              <span>Book Your Stay Now</span>
+            </button>
+          </a>
+          <!-- <p class="disclaimtext">Offer valid: 31 Dec 2025 – 06 Jan 2026</p> -->
+        </div>
+
+      </div>
+    </div>
+    <div id="amenities-section" class="container bg-dark-green p-5 rounded mt-5 wow animate__fadeInUp">
+      <div class="row align-items-center">
+
+        <!-- Left Image -->
+        <div class="col-lg-7 resort-image">
+          <img src="images/abheygarh/abheygarh-amenities.webp" loading="lazy" alt="The Kumbha Residency Resort">
+        </div>
+
+        <!-- Right Content -->
+        <div class="col-lg-5 resort-content">
+          <p class="project-name">Abheygarh By Alsisar Hotel</p>
+          <h2 class="resort-title">Amenities</h2>
+
+
+          <div class="amenity-grid">
+            <div class="amenity-item"><i class="bi bi-volume-mute"></i> Soundproof Rooms</div>
+            <div class="amenity-item"><i class="bi bi-snow"></i> Air Conditioning</div>
+            <div class="amenity-item"><i class="bi bi-cup-hot"></i> Dining Area</div>
+            <div class="amenity-item"><i class="bi bi-bell"></i> Room Service</div>
+            <div class="amenity-item"><i class="bi bi-tv"></i> Satellite TV</div>
+            <div class="amenity-item"><i class="bi bi-door-open"></i> Refrigerator</div>
+            <div class="amenity-item"><i class="bi bi-telephone"></i> Telephone</div>
+            <div class="amenity-item"><i class="bi bi-droplet"></i> Bottled Water</div>
+            <div class="amenity-item"><i class="bi bi-shield-check"></i> Private Bath</div>
+            <div class="amenity-item"><i class="bi bi-lightning-charge"></i> Electric Kettle</div>
+          </div>
+
+          <a href="#">
+            <button class="liquid-btn">
+              <div class="liquid"></div>
+              <span>Book Your Stay Now</span>
+            </button>
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="gallery-container default-padding">
+  <div class="container wow animate__fadeInUp">
+      <div class="gallery-header">
+        <div class="line"></div>
+        <h3 class="gallery-title">Gallery</h3>
+        <div class="line"></div>
+      </div>
+      <!-- Row 1: 2 Columns -->
+      <div class="row row-1 g-3">
+        <div class="col-12 col-md-4">
+          <div class="gallery-item">
+            <a href="images/abheygarh/abheygarh-palace-pill.webp" loading="lazy" data-fancybox="gallery" data-caption="Abheygarh By Alsisar Hotel">
+              <img src="images/abheygarh/abheygarh-palace-pill.webp" loading="lazy" class="img-fluid" alt="Abheygarh By Alsisar Hotel">
+            </a>
+          </div>
+        </div>
+        <div class="col-12 col-md-8">
+          <div class="gallery-item">
+            <a href="images/abheygarh/abheygarh-fort-top.webp" loading="lazy" data-fancybox="gallery" data-caption="Abheygarh By Alsisar Hotel">
+              <img src="images/abheygarh/abheygarh-fort-top.webp" loading="lazy" alt="Abheygarh By Alsisar Hotel">
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Row 2: Full Width -->
+      <div class="row row-2 g-3">
+        <div class="col-12">
+          <div class="gallery-item">
+            <a href="images/abheygarh/abheygarh-palace-full.webp" loading="lazy" data-fancybox="gallery" data-caption="Abheygarh By Alsisar Hotel">
+              <img src="images/abheygarh/abheygarh-palace-full.webp" loading="lazy" alt="Abheygarh By Alsisar Hotel">
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Row 3: 3 Columns -->
+      <div class="row row-3 g-3">
+        <div class="col-12 col-sm-6 col-md-4">
+          <div class="gallery-item">
+            <a href="images/abheygarh/abheygarh-palace-bed.webp" loading="lazy" data-fancybox="gallery" data-caption="Abheygarh By Alsisar Hotel">
+              <img src="images/abheygarh/abheygarh-palace-bed.webp" loading="lazy" alt="Abheygarh By Alsisar Hotel">
+            </a>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4">
+          <div class="gallery-item">
+            <a href="images/abheygarh/abheygarh-palace-bed-blu.webp" loading="lazy" data-fancybox="gallery" data-caption="Abheygarh By Alsisar Hotel">
+              <img src="images/abheygarh/abheygarh-palace-bed-blu.webp" loading="lazy" alt="Abheygarh By Alsisar Hotel">
+            </a>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4">
+          <div class="gallery-item">
+            <a href="images/abheygarh/abheygarh-fort-bath.webp" loading="lazy" data-fancybox="gallery" data-caption="Abheygarh By Alsisar Hotel">
+              <img src="images/abheygarh/abheygarh-fort-bath.webp" loading="lazy" alt="Abheygarh By Alsisar Hotel">
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Hidden Row 4: 2 Columns -->
+      <div class="row row-4 g-3 hidden-row">
+        <div class="col-12 col-md-6">
+          <div class="gallery-item">
+            <a href="images/abheygarh/abheygarh-bed-room-int.webp" loading="lazy" data-fancybox="gallery" data-caption="Abheygarh By Alsisar Hotel">
+              <img src="images/abheygarh/abheygarh-bed-room-int.webp" loading="lazy" alt="Abheygarh By Alsisar Hotel">
+            </a>
+          </div>
+        </div>
+        <div class="col-12 col-md-6">
+          <div class="gallery-item">
+            <a href="images/abheygarh/abheygarh-bed-room.webp" loading="lazy" data-fancybox="gallery" data-caption="Abheygarh By Alsisar Hotel">
+              <img src="images/abheygarh/abheygarh-bed-room.webp" loading="lazy" alt="Abheygarh By Alsisar Hotel">
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Hidden Row 5: 3 Columns -->
+      <div class="row row-5 g-3 hidden-row">
+        <div class="col-12 col-sm-6 col-md-4">
+          <div class="gallery-item">
+            <a href="images/abheygarh/abheygarh-fort-bath-room.webp" loading="lazy" data-fancybox="gallery" data-caption="Abheygarh By Alsisar Hotel">
+              <img src="images/abheygarh/abheygarh-fort-bath-room.webp" loading="lazy" alt="Abheygarh By Alsisar Hotel">
+            </a>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4">
+          <div class="gallery-item">
+            <a href="images/abheygarh/abheygarh-palace-mimb.webp" loading="lazy" data-fancybox="gallery" data-caption="Abheygarh By Alsisar Hotel">
+              <img src="images/abheygarh/abheygarh-palace-mimb.webp" loading="lazy" alt="Abheygarh By Alsisar Hotel">
+            </a>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4">
+          <div class="gallery-item">
+            <a href="images/abheygarh/abheygarh-fort-bath-room-one.webp" loading="lazy" data-fancybox="gallery" data-caption="Abheygarh By Alsisar Hotel">
+              <img src="images/abheygarh/abheygarh-fort-bath-room-one.webp" loading="lazy" alt="Abheygarh By Alsisar Hotel">
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Load More Button -->
+      <div class="load-more-container">
+        <button class="load-more-btn" id="loadMoreBtn">Load More</button>
+      </div>
+    </div>
+  </section>
+
+  <section class="facilities-sect pb-5">
+    <div class="container">
+      <div class="facility-header">
+        <div class="line"></div>
+        <h3 class="facility-title">Our Facilities</h3>
+        <div class="line"></div>
+      </div>
+
+
+      <div class="row g-4 wow animate__fadeInUp">
+        <div class="col-md-3">
+          <div class="facility-card text-center"><i class="bi bi-heart icon-wrap"></i>
+            <h3 class="facility-name">Pet Friendly</h3>
+            <p class="facility-desc">Inclusive pet-friendly accommodations featuring dedicated pet menus and comfort
+              kits.</p>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="facility-card text-center"><i class="bi bi-egg-fried icon-wrap"></i>
+            <h3 class="facility-name">Multi Cuisine</h3>
+            <p class="facility-desc">An exquisite fine-dining journey featuring authentic global flavors and seasonal
+              ingredients.</p>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="facility-card text-center"><i class="bi bi-briefcase icon-wrap"></i>
+            <h3 class="facility-name">Conference Hall</h3>
+            <p class="facility-desc">State-of-the-art corporate event spaces equipped with high-speed fiber
+              connectivity.</p>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="facility-card text-center"><i class="bi bi-wifi icon-wrap"></i>
+            <h3 class="facility-name">Wifi Connectivity</h3>
+            <p class="facility-desc">Complimentary ultra-high-speed internet access available across all hotel
+              premises.</p>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="facility-card text-center"><i class="bi bi-controller icon-wrap"></i>
+            <h3 class="facility-name">Indoor & Outdoor Games</h3>
+            <p class="facility-desc">Diverse recreational activities including premium billiards and professional court
+              sports.</p>
+          </div>
+        </div>
+
+
+        <div class="col-md-3">
+          <div class="facility-card text-center"><i class="bi bi-car-front icon-wrap"></i>
+            <h3 class="facility-name">Valet Service</h3>
+            <p class="facility-desc">Secure 24-hour executive valet parking.</p>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="facility-card text-center"><i class="bi bi-water icon-wrap"></i>
+            <h3 class="facility-name">Swimming Pool</h3>
+            <p class="facility-desc">A temperature-controlled infinity pool designed for ultimate relaxation and
+              leisure.</p>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="facility-card text-center"><i class="bi bi-cup-straw icon-wrap"></i>
+            <h3 class="facility-name">Exclusive Bar</h3>
+            <p class="facility-desc">A sophisticated lounge serving artisanal cocktails and rare vintage selections.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="collapse" id="moreRow">
+        <div class="row g-4 pt-4">
+          <div class="col-md-3">
+            <div class="facility-card text-center"><i class="bi bi-projector icon-wrap"></i>
+              <h3 class="facility-name">Audio-Visual Equipment</h3>
+              <p class="facility-desc">Advanced multimedia technology for seamless high-definition presentations and
+                events.</p>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="facility-card text-center"><i class="fa-solid fa-mountain-sun icon-wrap"></i>
+              <h3 class="facility-name">Private Sitouts</h3>
+              <p class="facility-desc">Secluded outdoor balconies offering panoramic views and tranquil personal spaces.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="facility-card text-center"><i class="bi bi-currency-exchange icon-wrap"></i>
+              <h3 class="facility-name">Currency Exchange</h3>
+              <p class="facility-desc">Secure on-site foreign exchange services with competitive real-time global rates.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="facility-card text-center"><i class="bi bi-car-front-fill icon-wrap"></i>
+              <h3 class="facility-name">Car Park & Rental</h3>
+              <p class="facility-desc">Comprehensive luxury fleet rentals and secure multi-level parking facilities.</p>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="facility-card text-center"><i class="bi bi-flower1 icon-wrap"></i>
+              <h3 class="facility-name">Wellness Spa</h3>
+              <p class="facility-desc">Holistic spa treatments and therapeutic massages for mind and body rejuvenation.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="facility-card text-center"><i class="bi bi-tree icon-wrap"></i>
+              <h3 class="facility-name">Lush Green Lawns</h3>
+              <p class="facility-desc">Manicured landscape gardens perfect for outdoor weddings and evening strolls.</p>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="facility-card text-center"><i class="bi bi-person-wheelchair icon-wrap"></i>
+              <h3 class="facility-name">Wheelchair Accessibility</h3>
+              <p class="facility-desc">Fully accessible facilities with dedicated assistance for guests with reduced
+                mobility.</p>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="facility-card text-center"><i class="bi bi-person-hearts icon-wrap"></i>
+              <h3 class="facility-name">Babysitter On Call</h3>
+              <p class="facility-desc">Professional, certified childcare services providing safety and peace of mind for
+                families.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="text-center mt-5">
+        <div id="loader" class="mb-3">
+          <div class="spinner-border" role="status"></div>
+        </div>
+        <button class="btn btn-luxury" type="button" id="loadBtn">Subject to Availability</button>
+      </div>
+    </div>
+  </section>
+
+  <section class="petfriendly-section default-padding">
+    <div class="container">
+      <div class="petfriendly">
+        <a href="https://www.trulyy.in/#"><img src="images/pet-friendly.webp" loading="lazy" class="img-fluid rounded-3" alt="pet friendly"></a>
+      </div>
+    </div>
+  </section>
+
+  <section class="wedding-section default-padding">
+    <div class="container">
+      <div class="row justify-content-between">
+        <!-- Left Section - Title -->
+        <div class="col-lg-5 col-md-12 mb-lg-0">
+          <h1 class="section-title">Stays Everyone's<br>Talking About</h1>
+        </div>
+
+        <!-- Right Section - Description -->
+        <div class="col-lg-4 col-md-12">
+          <p class="description-text">
+            Discover the most buzz-worthy stays everyone can’t stop talking about—handpicked for unforgettable experiences. Explore trending getaways on Trulyy India, where comfort, style, and stories come together.
+          </p>
+        </div>
+      </div>
+
+      <!-- Cards Section -->
+      <div class="row mt-5 pt-4">
+        <!-- Destination Wedding Card -->
+        <div class="col-lg-4 col-md-6">
+          <div class="card-custom">
+            <div class="card-img-wrapper">
+              <img src="images/the-maharana-bagh-thumb.webp" loading="lazy" class="rounded" alt="Destination Wedding">
+              <div class="card-overlay">
+                <a href="maharana-bagh.html" target="_blank" class="read-more-btn">Read
+                  More</a>
+              </div>
+            </div>
+            <h3 class="card-title-custom">The Maharana Bagh</h3>
+            <p class="card-subtitle-custom">Udaipur, Rajasthan</p>
+          </div>
+        </div>
+
+        <!-- Corporate Meetings Card -->
+        <div class="col-lg-4 col-md-6">
+          <div class="card-custom">
+            <div class="card-img-wrapper">
+              <img src="images/amar-mahal.webp" loading="lazy" class="rounded" alt="Corporate Meetings">
+              <div class="card-overlay">
+                <a href="javascript:void(0)" target="_blank"
+                  class="read-more-btn">Read More</a>
+              </div>
+            </div>
+            <h3 class="card-title-custom">The Amar Mahal</h3>
+            <p class="card-subtitle-custom">Udaipur, Rajasthan</p>
+          </div>
+        </div>
+
+        <!-- Events Card -->
+        <div class="col-lg-4 col-md-6">
+          <div class="card-custom">
+            <div class="card-img-wrapper">
+              <img src="images/sakthi-vilas-thumb.webp" loading="lazy" class="rounded" alt="Events">
+              <div class="card-overlay">
+                <a href="shakti-vilas.html" target="_blank" class="read-more-btn">Read
+                  More</a>
+              </div>
+            </div>
+            <h3 class="card-title-custom">The Shakti Vilas</h3>
+            <p class="card-subtitle-custom">Udaipur, Rajasthan</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div id="site-footer"></div>
+  <!-- jQuery (required for Fancybox) -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <!-- Fancybox JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/custom.js"></script>
+  <script src="js/footer.js"></script>
+  <script>
+    $(document).ready(function () {
+      let loadCount = 0;
+      const hiddenRows = $('.hidden-row');
+      const loadMoreBtn = $('#loadMoreBtn');
+
+      loadMoreBtn.on('click', function () {
+        if (loadCount < hiddenRows.length) {
+          $(hiddenRows[loadCount]).removeClass('hidden-row').slideDown(600);
+          loadCount++;
+
+          if (loadCount >= hiddenRows.length) {
+            loadMoreBtn.text('No More Images').prop('disabled', true).css('opacity', '0.5');
+          }
+        }
+      });
+
+      // Initialize Fancybox
+      $('[data-fancybox="gallery"]').fancybox({
+        buttons: [
+          "zoom",
+          "slideShow",
+          "thumbs",
+          "close"
+        ],
+        loop: true,
+        protect: true,
+        animationEffect: "zoom-in-out",
+        transitionEffect: "slide"
+      });
+    });
+  </script>
+
+  <script>
+    const scrollContainer = document.getElementById('scrollContainer');
+    const videoBox = document.getElementById('videoBox');
+    const overlay = document.getElementById('overlay');
+
+    window.addEventListener('scroll', () => {
+      const containerRect = scrollContainer.getBoundingClientRect();
+      const containerHeight = scrollContainer.offsetHeight;
+      const viewportHeight = window.innerHeight;
+
+      // Calculate progress (0 to 1) based on how much of the container has passed the top
+      // We subtract viewportHeight to ensure progress hits 1 before the container leaves the screen
+      let scrollDistance = -containerRect.top;
+      let progress = scrollDistance / (containerHeight - viewportHeight);
+
+      // Clamp progress between 0 and 1
+      progress = Math.max(0, Math.min(1, progress));
+
+      // 1. Handle Video Width (from 640px to 100%)
+      // We use 80% of the scroll journey for the width expansion
+      let widthProgress = Math.min(1, progress / 0.8);
+      let startWidth = 640;
+      let endWidth = window.innerWidth;
+      let currentWidth = startWidth + (endWidth - startWidth) * widthProgress;
+
+      videoBox.style.width = `${currentWidth}px`;
+
+      // Remove border radius as it goes full screen
+      videoBox.style.borderRadius = widthProgress >= 1 ? '0px' : '8px';
+
+      // 2. Handle Overlay Visibility
+      // Show overlay only when width hits 100% (progress > 0.8)
+      if (progress > 0.8) {
+        overlay.classList.add('visible');
+      } else {
+        overlay.classList.remove('visible');
+      }
+    });
+  </script>
+
+  <script>
+    document.getElementById('loadBtn').addEventListener('click', function () {
+      const btn = this;
+      const loader = document.getElementById('loader');
+      const content = new bootstrap.Collapse(document.getElementById('moreRow'), { toggle: false });
+
+      btn.style.display = 'none';
+      loader.style.display = 'block';
+
+      // Simulate a network delay for premium feel
+      setTimeout(() => {
+        loader.style.display = 'none';
+        content.show();
+      }, 800);
+    });
+  </script>
+
+</body>
+
+</html>

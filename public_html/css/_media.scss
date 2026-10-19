@@ -1,0 +1,327 @@
+@media only screen and (min-width: 300px) and (max-width: 767px) {
+
+    /* Head/intro */
+    .head-wrapper {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+
+        h2 {
+            font-size: 20px !important;
+            line-height: 1.5 !important;
+            font-weight: 400 !important;
+        }
+    }
+
+    /* Video block: keep height reasonable on small screens */
+    .video-container {
+        width: 100% !important;
+        height: auto !important;
+        min-height: 200px !important;
+    }
+
+    /* Hero carousel adjustments */
+    .hero-carousel {
+        height: 60vh !important;
+        min-height: 320px !important;
+    }
+
+    .hero-carousel-item {
+        background-position: center !important;
+        background-size: cover !important;
+    }
+
+    .carousel-content {
+        left: 1rem !important;
+        right: 1rem !important;
+        bottom: 4rem !important;
+        max-width: calc(100% - 2rem) !important;
+        padding: 0 !important;
+    }
+
+    .carousel-subtitle {
+        margin-left: 0 !important;
+        font-size: 0.85rem !important;
+        letter-spacing: 3px !important;
+    }
+
+    .carousel-title {
+        font-size: 1.75rem !important;
+        line-height: 1.1 !important;
+        margin-left: 0 !important;
+        margin-bottom: 0.75rem !important;
+    }
+
+    .carousel-btn {
+        padding: 0.6rem 1rem !important;
+        font-size: 0.85rem !important;
+    }
+
+    /* Hide large carousel controls on small screens to avoid overlap */
+    .hero-carousel-control {
+        display: none !important;
+    }
+
+    /* Make resort section fully visible: disable sticky, relax sizing */
+    .resort-section {
+        .container {
+            position: static !important;
+            top: auto !important;
+            margin-bottom: 1rem !important;
+            overflow: visible !important;
+            width: 95% !important;
+            padding-left: 15px !important;
+            padding-right: 15px !important;
+        }
+
+        .resort-image img {
+            width: 100% !important;
+            height: auto !important;
+            max-height: none !important;
+            display: block !important;
+            border-radius: 6px !important;
+        }
+
+        .resort-content {
+            padding-left: 15px !important;
+            margin-top: 12px !important;
+            color: $body-bg-color !important;
+        }
+
+        .resort-title {
+            font-size: 1.6rem !important;
+            line-height: 1.1 !important;
+        }
+
+        .resort-text {
+            max-width: 100% !important;
+            font-size: 0.95rem !important;
+        }
+    }
+
+    /* Ensure package section is visible and not clipped */
+    #package-section {
+        position: relative !important;
+        z-index: 10 !important;
+        width: 100% !important;
+        max-width: 100% !important;
+        padding: 1rem !important;
+        margin-top: 0.75rem !important;
+        overflow: visible !important;
+    }
+
+    .gallery-container .gallery-title{
+        font-size: 2rem;
+    }
+
+    .gallery-container .row-4 .gallery-item, .gallery-container .row-5 .gallery-item {
+        height: 325px;
+    }
+
+    /* Gallery images should scale properly */
+    .gallery-item img,
+    .gallery-item a img {
+        width: 100% !important;
+        height: auto !important;
+        object-fit: cover !important;
+        display: block !important;
+    }
+
+    /* Buttons full width on small screens */
+    .liquid-btn,
+    .btn-explore,
+    .load-more-btn,
+    .book-btn {
+        width: 100% !important;
+        display: inline-flex !important;
+        justify-content: center !important;
+        padding-left: 1rem !important;
+        padding-right: 1rem !important;
+        box-sizing: border-box !important;
+    }
+
+    /* Facility cards stack nicely */
+    .facilities-sect .facility-card {
+        margin-bottom: 1rem !important;
+    }
+
+    .facilities-sect .facility-title{
+        font-size: 2rem;
+    }
+
+    /* Small tweaks for spacing to avoid overlap with fixed header */
+    body {
+        -webkit-text-size-adjust: 100% !important;
+    }
+
+    .overlay h4{
+        font-size: 1.25rem !important;
+    }
+
+    .sticky-wrapper{
+        height: 30vh !important;
+    }
+
+    .scroll-container{
+        height: 40vh !important;
+    }
+
+    .headlinewrap, .ourstory-section{
+        padding-left: 0;
+        padding-right: 0;
+
+        .headline-title{
+            font-size: 2rem;
+        }
+
+        .display-heading{
+            font-size: 2.5rem;
+        }
+
+    }
+
+    .inner-bg-item .container-fluid {
+            align-items: flex-end !important;
+            padding-top: 140px;
+        }
+
+.pet-friendly-section{
+
+    h1{
+        font-size: 36px;
+    }
+}
+
+        
+}
+
+@media only screen and (min-width: 1280px) and (max-width:1300px) {
+
+    .nav-head-wrap{
+
+        .nav-item{
+
+            font-size: 0.85rem;
+            gap: 0 rem !important;
+            text-transform: capitalize !important;
+        }
+
+        .logo{
+            left: 52%;
+        }
+        .book-btn{
+            font-size: 0.75rem;
+            padding: 0.7rem 1.1rem;
+        }
+
+        .navbar-left, .navbar-right{
+            gap: 1rem !important;
+        }
+        
+    }
+
+    .logo img {
+        height: 95px !important;
+        width: 54px !important;
+    }
+
+}
+
+@media only screen and (min-width: 1360px) and (max-width:1360px) {
+
+    .nav-head-wrap{
+
+        .nav-item{
+
+            font-size: 0.85rem;
+            gap: 0.1rem;
+        }
+
+        .logo{
+            left: 53%;
+
+            
+        }
+        .navbar-left, .navbar-right{
+            gap: 1rem !important;
+        }
+    }
+
+    .logo img {
+        height: 105px !important;
+        width: 56px !important;
+    }
+
+}
+
+@media only screen and (min-width: 1366px) and (max-width:1400px) {
+
+    .nav-head-wrap{
+
+        .nav-item{
+
+            font-size: 0.85rem;
+            gap: 0.1rem;
+        }
+
+        .logo{
+            left: 53%;
+
+            
+        }
+        .navbar-left, .navbar-right{
+            gap: 1rem !important;
+        }
+    }
+
+    .logo img {
+        height: 105px !important;
+        width: 56px !important;
+    }
+
+}
+
+@media only screen and (min-width: 1440px) and (max-width:1500px) {
+
+    .nav-head-wrap{
+
+        .nav-item{
+
+            gap: 0.1rem;
+        }
+
+        .logo{
+            left: 53%;
+
+            
+        }
+        .navbar-left, .navbar-right{
+            gap: 1rem !important;
+        }
+    }
+
+    .logo img {
+        height: 105px !important;
+        width: 56px !important;
+    }
+
+}
+
+@media only screen and (min-width: 1536px) and (max-width:1600px) {
+
+    .nav-head-wrap{
+
+        .nav-item{
+
+            gap: 0.1rem;
+        }
+
+        .logo{
+            left: 53%;
+
+            
+        }
+        
+    }
+
+    
+}

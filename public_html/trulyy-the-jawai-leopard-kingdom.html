@@ -1,0 +1,846 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trulyy India - Trulyy The Jawai Leopard Kingdom</title>
+  <link rel="icon" href="images/fav.png" sizes="32x32" />
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+  <!-- GSAP -->
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+
+
+</head>
+
+<body>
+  <div id="site-header"></div>
+  <script src="js/header.js"></script>
+
+  <section class="hero-section">
+    <!-- Hero Carousel -->
+    <div class="hero-carousel">
+      <div class="hero-carousel-inner" id="heroCarouselInner">
+        <!-- Slide 1 -->
+        <div class="hero-carousel-item"
+          style="background-image: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('images/hero/jawai-palace.webp');">
+          <div class="carousel-content wow animate__fadeInUp">
+            <div class="carousel-subtitle">Trulyy </div>
+            <h1 class="carousel-title">The Jawai Leopard Kingdom</h1>
+            <a href="https://www.swiftbook.io/inst/#home?propertyId=743MjQlByGlm59cO79ygedUWYx0S4Yhm6V1NDmoc
+3Ky5OTY=&amp;JDRN=Y&amp;checkIn=2026-02-13&amp;checkOut=2026-02-
+14&amp;currency=INR&amp;adult=2&amp;child=0&amp;source=localuniversal&amp;utm_source=GoogleListing&amp;utm_medium=
+free&amp;utm_campaign=GoogleListing&amp;m_currency=INR" target="_blank" class="carousel-btn text-decoration-none">Book
+              a Stay</a>
+          </div>
+        </div>
+
+        <!-- Slide 2 -->
+        <div class="hero-carousel-item"
+          style="background-image: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('images/hero/jawai-safari.webp');">
+          <div class="carousel-content wow animate__fadeInUp">
+            <div class="carousel-subtitle">Jawai</div>
+            <h1 class="carousel-title">Luxury WildLife Resort</h1>
+            <a href="https://www.swiftbook.io/inst/#home?propertyId=743MjQlByGlm59cO79ygedUWYx0S4Yhm6V1NDmoc
+3Ky5OTY=&amp;JDRN=Y&amp;checkIn=2026-02-13&amp;checkOut=2026-02-
+14&amp;currency=INR&amp;adult=2&amp;child=0&amp;source=localuniversal&amp;utm_source=GoogleListing&amp;utm_medium=
+free&amp;utm_campaign=GoogleListing&amp;m_currency=INR" target="_blank" class="carousel-btn text-decoration-none">Book
+              a Stay</a>
+          </div>
+        </div>
+
+        <!-- Slide 3 -->
+        <div class="hero-carousel-item"
+          style="background-image: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('images/hero/jawai-bed.webp');">
+          <div class="carousel-content wow animate__fadeInUp">
+            <div class="carousel-subtitle">EXPERIENCE</div>
+            <h1 class="carousel-title">Luxury<br>Hospitality</h1>
+            <a href="https://www.swiftbook.io/inst/#home?propertyId=743MjQlByGlm59cO79ygedUWYx0S4Yhm6V1NDmoc
+3Ky5OTY=&amp;JDRN=Y&amp;checkIn=2026-02-13&amp;checkOut=2026-02-
+14&amp;currency=INR&amp;adult=2&amp;child=0&amp;source=localuniversal&amp;utm_source=GoogleListing&amp;utm_medium=
+free&amp;utm_campaign=GoogleListing&amp;m_currency=INR" target="_blank" class="carousel-btn text-decoration-none">Book
+              a Stay</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Carousel Controls -->
+      <button class="hero-carousel-control prev" onclick="changeSlide(-1)">‹</button>
+      <button class="hero-carousel-control next" onclick="changeSlide(1)">›</button>
+
+      <!-- Carousel Indicators -->
+      <div class="hero-carousel-indicators">
+        <button class="hero-indicator active" onclick="goToSlide(0)"></button>
+        <button class="hero-indicator" onclick="goToSlide(1)"></button>
+        <button class="hero-indicator" onclick="goToSlide(2)"></button>
+      </div>
+    </div>
+  </section>
+
+  <section class="head-wrapper default-padding">
+
+    <div class="container-fluid">
+      <h6>Granite Hills. Endless Skies. Leopards at Sundown.</h6>
+      <h2 class="pb-4">This isn’t just a wildlife stay. It’s an invitation into the extraordinary landscape of Jawai.
+        Trulyy The Jawai Leopard Kingdom gives you 30 exclusive luxury accommodations, each with a private plunge pool,
+        set among Jawai’s dramatic granite hills, where leopards roam freely and life unfolds at its own remarkable
+        pace.<span><br>By day, venture into the granite wilderness on guided leopard safaris, discover hidden temples
+          and
+          villages, and encounter Jawai’s rich birdlife. As the sun drops, meet local Rabari communities, linger over
+          sundowners, or simply watch the landscape change around you. Here, luxury is privacy, space, and a front-row
+          seat to a wilderness unlike anywhere else.</span></h2>
+    </div>
+
+  </section>
+
+  <section class="video-scroll-container">
+    <div class="scroll-container" id="scrollContainer">
+      <div class="sticky-wrapper">
+        <div class="video-container" id="videoBox">
+          <video autoplay muted loop playsinline>
+            <source src="videos/the-jawai-leopard-kingdom.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+
+          <div class="overlay" id="overlay">
+            <h4>Trulyy The Jawai Leopard Kingdom</h4>
+            <a href="https://www.swiftbook.io/inst/#home?propertyId=743MjQlByGlm59cO79ygedUWYx0S4Yhm6V1NDmoc
+3Ky5OTY=&amp;JDRN=Y&amp;checkIn=2026-02-13&amp;checkOut=2026-02-
+14&amp;currency=INR&amp;adult=2&amp;child=0&amp;source=localuniversal&amp;utm_source=GoogleListing&amp;utm_medium=
+free&amp;utm_campaign=GoogleListing&amp;m_currency=INR" target="_blank">
+              <button class="liquid-btn btn-primary">
+                <div class="liquid"></div>
+                <span class="text-uppercase">Book A Stay</span>
+              </button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <section class="resort-section">
+    <div id="package-section" class="container bg-primary p-5 rounded wow animate__fadeInUp">
+      <div class="row align-items-center">
+
+        <!-- Left Image -->
+        <div class="col-lg-7 resort-image">
+          <img src="images/jawai/tulyy-the-jawai-leopard-kingdom-package.webp" loading="lazy"
+            alt="Trulyy The Jawai Leopard Kingdom Package">
+        </div>
+
+        <!-- Right Content -->
+        <div class="col-lg-5 resort-content">
+          <p class="project-name">Trulyy The Jawai Leopard Kingdom</p>
+          <h2 class="resort-title m-0 mb-4">Luxury Rooms</h2>
+          <ul class="list-unstyled">
+            <li class="d-flex align-items-center lh-lg">
+              <i class="fa-solid fa-circle-check me-2"></i>
+              <span>Welcome drink on arrival</span>
+            </li>
+            <li class="d-flex align-items-center lh-lg">
+              <i class="fa-solid fa-circle-check me-2"></i>
+              <span>Traditional Welcome</span>
+            </li>
+            <li class="d-flex align-items-center lh-lg">
+              <i class="fa-solid fa-circle-check me-2"></i>
+              <span>Indoor & outdoor games</span>
+            </li>
+            <li class="d-flex align-items-center lh-lg">
+              <i class="fa-solid fa-circle-check me-2"></i>
+              <span>Swimming pool</span>
+            </li>
+            <li class="d-flex align-items-center lh-lg">
+              <i class="fa-solid fa-circle-check me-2"></i>
+              <span>Tea/Coffee with 1 sweet & 1 savoury snack</span>
+            </li>
+            <li class="d-flex align-items-center lh-lg">
+              <i class="fa-solid fa-circle-check me-2"></i>
+              <span>Free Wi-Fi</span>
+            </li>
+            <li class="d-flex align-items-center lh-lg">
+              <i class="fa-solid fa-circle-check me-2"></i>
+              <span>10% off laundry & other F&B services</span>
+            </li>
+          </ul>
+
+
+          <div class="row g-0 my-2">
+            <div class="col-md-6 mb-3">
+              <div class="checkinout border shadow-sm rounded rounded-end-0 py-1 px-4 text-center">
+                <p class="m-0 checkin">Check In</p>
+                <p class="m-0 checkin fs-6">2:00 PM</p>
+              </div>
+            </div>
+            <div class="col-md-6 mb-3">
+              <div class="checkinout border shadow-sm rounded rounded-start-0 py-1 px-4 border-start text-center">
+                <p class="m-0 checkin">Check Out</p>
+                <p class="m-0 checkin fs-6">11:00 AM</p>
+              </div>
+            </div>
+          </div>
+
+          <a href="https://www.swiftbook.io/inst/#home?propertyId=743MjQlByGlm59cO79ygedUWYx0S4Yhm6V1NDmoc
+3Ky5OTY=&amp;JDRN=Y&amp;checkIn=2026-02-13&amp;checkOut=2026-02-
+14&amp;currency=INR&amp;adult=2&amp;child=0&amp;source=localuniversal&amp;utm_source=GoogleListing&amp;utm_medium=
+free&amp;utm_campaign=GoogleListing&amp;m_currency=INR" target="_blank">
+            <button class="liquid-btn">
+              <div class="liquid"></div>
+              <span>Book Your Stay Now</span>
+            </button>
+          </a>
+          <!-- <p class="disclaimtext">Offer valid: 31 Dec 2025 – 06 Jan 2026</p> -->
+        </div>
+
+      </div>
+    </div>
+    <div id="amenities-section" class="container bg-dark-green p-5 rounded mt-5 wow animate__fadeInUp">
+      <div class="row align-items-center">
+
+        <!-- Left Image -->
+        <div class="col-lg-7 resort-image">
+          <img src="images/jawai/tulyy-the-jawai-leopard-kingdom-amenities.webp" loading="lazy"
+            alt="Trulyy The Jawai Leopard Kingdom Amenities">
+        </div>
+
+        <!-- Right Content -->
+        <div class="col-lg-5 resort-content">
+          <p class="project-name">Trulyy The Jawai Leopard Kingdom</p>
+          <h2 class="resort-title">Amenities</h2>
+
+
+          <div class="amenity-grid">
+            <div class="amenity-item"><i class="bi bi-volume-mute"></i> Soundproof Rooms</div>
+            <div class="amenity-item"><i class="bi bi-snow"></i> Air Conditioning</div>
+            <div class="amenity-item"><i class="bi bi-cup-hot"></i> Dining Area</div>
+            <div class="amenity-item"><i class="bi bi-bell"></i> Room Service</div>
+            <div class="amenity-item"><i class="bi bi-tv"></i> Satellite TV</div>
+            <div class="amenity-item"><i class="bi bi-door-open"></i> Refrigerator</div>
+            <div class="amenity-item"><i class="bi bi-telephone"></i> Telephone</div>
+            <div class="amenity-item"><i class="bi bi-droplet"></i> Bottled Water</div>
+            <div class="amenity-item"><i class="bi bi-shield-check"></i> Private Bath</div>
+            <div class="amenity-item"><i class="bi bi-lightning-charge"></i> Electric Kettle</div>
+          </div>
+
+          <a href="https://www.swiftbook.io/inst/#home?propertyId=743MjQlByGlm59cO79ygedUWYx0S4Yhm6V1NDmoc
+3Ky5OTY=&amp;JDRN=Y&amp;checkIn=2026-02-13&amp;checkOut=2026-02-
+14&amp;currency=INR&amp;adult=2&amp;child=0&amp;source=localuniversal&amp;utm_source=GoogleListing&amp;utm_medium=
+free&amp;utm_campaign=GoogleListing&amp;m_currency=INR" target="_blank">
+            <button class="liquid-btn">
+              <div class="liquid"></div>
+              <span>Book Your Stay Now</span>
+            </button>
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="gallery-container default-padding">
+    <div class="container wow animate__fadeInUp">
+      <div class="gallery-header">
+        <div class="line"></div>
+        <h3 class="gallery-title">Gallery</h3>
+        <div class="line"></div>
+      </div>
+      <!-- Row 1: 2 Columns -->
+      <div class="row row-1 g-3">
+        <div class="col-12 col-md-4">
+          <div class="gallery-item">
+            <a href="images/jawai/jawai-swim.webp" loading="lazy" data-fancybox="gallery"
+              data-caption="Trulyy The Jawai Leopard Kingdom">
+              <img src="images/jawai/jawai-swim.webp" loading="lazy" class="img-fluid"
+                alt="Trulyy The Jawai Leopard Kingdom">
+            </a>
+          </div>
+        </div>
+        <div class="col-12 col-md-8">
+          <div class="gallery-item">
+            <a href="images/jawai/jawai-dine.webp" loading="lazy" data-fancybox="gallery"
+              data-caption="Trulyy The Jawai Leopard Kingdom">
+              <img src="images/jawai/jawai-dine.webp" loading="lazy" alt="Trulyy The Jawai Leopard Kingdom">
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Row 2: Full Width -->
+      <div class="row row-2 g-3">
+        <div class="col-12">
+          <div class="gallery-item">
+            <a href="images/jawai/jawai-room.webp" loading="lazy" data-fancybox="gallery"
+              data-caption="Trulyy The Jawai Leopard Kingdom">
+              <img src="images/jawai/jawai-room.webp" loading="lazy" alt="Trulyy The Jawai Leopard Kingdom">
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Row 3: 3 Columns -->
+      <div class="row row-3 g-3">
+        <div class="col-12 col-sm-6 col-md-4">
+          <div class="gallery-item">
+            <a href="images/jawai/jawai-tt.webp" loading="lazy" data-fancybox="gallery"
+              data-caption="Trulyy The Jawai Leopard Kingdom">
+              <img src="images/jawai/jawai-tt.webp" loading="lazy" alt="Trulyy The Jawai Leopard Kingdom">
+            </a>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4">
+          <div class="gallery-item">
+            <a href="images/jawai/jawai-bed.webp" loading="lazy" data-fancybox="gallery"
+              data-caption="Trulyy The Jawai Leopard Kingdom">
+              <img src="images/jawai/jawai-bed.webp" loading="lazy" alt="Trulyy The Jawai Leopard Kingdom">
+            </a>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4">
+          <div class="gallery-item">
+            <a href="images/jawai/jawai-dines-luxury.webp" loading="lazy" data-fancybox="gallery"
+              data-caption="Trulyy The Jawai Leopard Kingdom">
+              <img src="images/jawai/jawai-dines-luxury.webp" loading="lazy" alt="Trulyy The Jawai Leopard Kingdom">
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Hidden Row 4: 2 Columns -->
+      <div class="row row-4 g-3 hidden-row">
+        <div class="col-12 col-md-6">
+          <div class="gallery-item">
+            <a href="images/jawai/jawai-safari.webp" loading="lazy" data-fancybox="gallery"
+              data-caption="Trulyy The Jawai Leopard Kingdom">
+              <img src="images/jawai/jawai-safari.webp" loading="lazy" alt="Trulyy The Jawai Leopard Kingdom">
+            </a>
+          </div>
+        </div>
+        <div class="col-12 col-md-6">
+          <div class="gallery-item">
+            <a href="images/jawai/jawai-tent.webp" loading="lazy" data-fancybox="gallery"
+              data-caption="Trulyy The Jawai Leopard Kingdom">
+              <img src="images/jawai/jawai-tent.webp" loading="lazy" alt="Trulyy The Jawai Leopard Kingdom">
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Hidden Row 5: 3 Columns -->
+      <div class="row row-5 g-3 hidden-row">
+        <div class="col-12 col-sm-6 col-md-4">
+          <div class="gallery-item">
+            <a href="images/jawai/jawai-meet.webp" loading="lazy" data-fancybox="gallery"
+              data-caption="Trulyy The Jawai Leopard Kingdom">
+              <img src="images/jawai/jawai-meet.webp" loading="lazy" alt="Trulyy The Jawai Leopard Kingdom">
+            </a>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4">
+          <div class="gallery-item">
+            <a href="images/jawai/jawai-bed.webp" loading="lazy" data-fancybox="gallery"
+              data-caption="Trulyy The Jawai Leopard Kingdom">
+              <img src="images/jawai/jawai-bed.webp" loading="lazy" alt="Trulyy The Jawai Leopard Kingdom">
+            </a>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4">
+          <div class="gallery-item">
+            <a href="images/jawai/jawai-tent-meet.webp" loading="lazy" data-fancybox="gallery"
+              data-caption="Trulyy The Jawai Leopard Kingdom">
+              <img src="images/jawai/jawai-tent-meet.webp" loading="lazy" alt="Trulyy The Jawai Leopard Kingdom">
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Load More Button -->
+      <div class="load-more-container">
+        <button class="load-more-btn" id="loadMoreBtn">Load More</button>
+      </div>
+    </div>
+  </section>
+
+  <section class="facilities-sect pb-5">
+    <div class="container">
+      <div class="facility-header">
+        <div class="line"></div>
+        <h3 class="facility-title">Our Facilities</h3>
+        <div class="line"></div>
+      </div>
+
+
+      <div class="row g-4 wow animate__fadeInUp">
+        <div class="col-md-3">
+          <div class="facility-card text-center"><i class="bi bi-binoculars icon-wrap"></i>
+            <h3 class="facility-name">Safari</h3>
+            <p class="facility-desc">Guided wildlife safaris offering close encounters with native species in their
+              natural habitat.</p>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="facility-card text-center"><i class="bi bi-heart icon-wrap"></i>
+            <h3 class="facility-name">Pet Friendly</h3>
+            <p class="facility-desc">Inclusive pet-friendly accommodations featuring dedicated pet menus and comfort
+              kits.</p>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="facility-card text-center"><i class="bi bi-egg-fried icon-wrap"></i>
+            <h3 class="facility-name">Multi Cuisine</h3>
+            <p class="facility-desc">An exquisite fine-dining journey featuring authentic global flavors and seasonal
+              ingredients.</p>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="facility-card text-center"><i class="bi bi-briefcase icon-wrap"></i>
+            <h3 class="facility-name">Conference Hall</h3>
+            <p class="facility-desc">State-of-the-art corporate event spaces equipped with high-speed fiber
+              connectivity.</p>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="facility-card text-center"><i class="bi bi-wifi icon-wrap"></i>
+            <h3 class="facility-name">Wifi Connectivity</h3>
+            <p class="facility-desc">Complimentary ultra-high-speed internet access available across all hotel
+              premises.</p>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="facility-card text-center"><i class="bi bi-controller icon-wrap"></i>
+            <h3 class="facility-name">Indoor & Outdoor Games</h3>
+            <p class="facility-desc">Diverse recreational activities including premium billiards and professional court
+              sports.</p>
+          </div>
+        </div>
+
+
+
+        <div class="col-md-3">
+          <div class="facility-card text-center"><i class="bi bi-water icon-wrap"></i>
+            <h3 class="facility-name">Swimming Pool</h3>
+            <p class="facility-desc">A temperature-controlled infinity pool designed for ultimate relaxation and
+              leisure.</p>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="facility-card text-center"><i class="bi bi-cup-straw icon-wrap"></i>
+            <h3 class="facility-name">Exclusive Bar</h3>
+            <p class="facility-desc">A sophisticated lounge serving artisanal cocktails and rare vintage selections.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="collapse" id="moreRow">
+        <div class="row g-4 pt-4">
+          <div class="col-md-3">
+            <div class="facility-card text-center"><i class="bi bi-car-front icon-wrap"></i>
+              <h3 class="facility-name">Valet Service</h3>
+              <p class="facility-desc">Secure 24-hour executive valet parking.</p>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="facility-card text-center"><i class="bi bi-projector icon-wrap"></i>
+              <h3 class="facility-name">Audio-Visual Equipment</h3>
+              <p class="facility-desc">Advanced multimedia technology for seamless high-definition presentations and
+                events.</p>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="facility-card text-center"><i class="fa-solid fa-mountain-sun icon-wrap"></i>
+              <h3 class="facility-name">Private Sitouts</h3>
+              <p class="facility-desc">Secluded outdoor balconies offering panoramic views and tranquil personal spaces.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="facility-card text-center"><i class="bi bi-flower1 icon-wrap"></i>
+              <h3 class="facility-name">Wellness Spa</h3>
+              <p class="facility-desc">Holistic spa treatments and therapeutic massages for mind and body rejuvenation.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="facility-card text-center"><i class="bi bi-tree icon-wrap"></i>
+              <h3 class="facility-name">Lush Green Lawns</h3>
+              <p class="facility-desc">Manicured landscape gardens perfect for outdoor weddings and evening strolls.</p>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="facility-card text-center"><i class="bi bi-person-wheelchair icon-wrap"></i>
+              <h3 class="facility-name">Wheelchair Accessibility</h3>
+              <p class="facility-desc">Fully accessible facilities with dedicated assistance for guests with reduced
+                mobility.</p>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="facility-card text-center"><i class="bi bi-cup-hot icon-wrap"></i>
+              <h3 class="facility-name">Floating Breakfast</h3>
+              <p class="facility-desc">Enjoy a unique floating breakfast experience on the serene waters, blending
+                culinary delights with natural beauty.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="text-center mt-5">
+        <div id="loader" class="mb-3">
+          <div class="spinner-border" role="status"></div>
+        </div>
+        <button class="btn btn-luxury" type="button" id="loadBtn">Subject to Availability</button>
+      </div>
+    </div>
+  </section>
+
+  <section class="testi-section">
+    <div class="wrapper">
+
+      <!-- Header -->
+      <div class="header-grid">
+        <div>
+          <div class="label-pill">Happy Guests</div>
+          <h2>Real Stories from<br><em>Real Travellers</em></h2>
+        </div>
+        <div class="total-badge">
+          <span class="total-number">4.9</span>
+          <span class="stars d-block" style="font-size:0.9rem; margin:4px 0; color:#c9933a;">★★★★★</span>
+          <span class="total-label">20+ Reviews</span>
+        </div>
+      </div>
+
+      <!-- Slider -->
+      <div class="slider-shell" id="sliderShell">
+        <div class="slider-track" id="sliderTrack">
+
+          <!-- Card 1 -->
+          <div class="slide-card">
+            <div class="testimonial-card">
+              <div class="top-row">
+                <div class="profile-left">
+                  <div class="avatar av-blue">S</div>
+                  <div>
+                    <div class="reviewer-name">Sweta Shiyani</div>
+                    <div class="reviewer-sub">Leisure Traveller</div>
+                  </div>
+                </div>
+                <div class="stars-col">
+                  <div class="stars">★★★★★</div>
+                  <div class="google-tag">via Google</div>
+                </div>
+              </div>
+              <div class="quote-wrap">
+                <p class="review-text">Had a wonderful stay at Trully Jawai Leopard Kingdom Resort. The food was
+                  absolutely delicious – fresh, well-prepared, and with great variety. Every meal felt homely yet
+                  premium. The staff was extremely polite, attentive, and always ready to help with a smile.</p>
+              </div>
+              <div class="card-footer-row">
+                <span class="stay-tag">✓ Verified Stay</span>
+                <span class="date-tag">Nov 2024</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="slide-card">
+            <div class="testimonial-card">
+              <div class="top-row">
+                <div class="profile-left">
+                  <div class="avatar av-blue">N</div>
+                  <div>
+                    <div class="reviewer-name">Naina Gupta</div>
+                    <div class="reviewer-sub">Family Traveller</div>
+                  </div>
+                </div>
+                <div class="stars-col">
+                  <div class="stars">★★★★★</div>
+                  <div class="google-tag">via Google</div>
+                </div>
+              </div>
+              <div class="quote-wrap">
+                <p class="review-text">We had an incredibly comfortable stay at the resort — the rooms were cozy, clean,
+                  and perfect for a relaxing getaway. The food was delicious with a great variety, and the ambience made
+                  the whole experience even more special.</p>
+              </div>
+              <div class="card-footer-row">
+                <span class="stay-tag">✓ Verified Stay</span>
+                <span class="date-tag">Oct 2024</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="slide-card">
+            <div class="testimonial-card">
+              <div class="top-row">
+                <div class="profile-left">
+                  <div class="avatar av-blue">C</div>
+                  <div>
+                    <div class="reviewer-name">Charmi Shah</div>
+                    <div class="reviewer-sub">Adventure Traveller</div>
+                  </div>
+                </div>
+                <div class="stars-col">
+                  <div class="stars">★★★★★</div>
+                  <div class="google-tag">via Google</div>
+                </div>
+              </div>
+              <div class="quote-wrap">
+                <p class="review-text">The experience was too good. The staff was very helpful. The food was delicious
+                  too. My partner and I loved it.</p>
+              </div>
+              <div class="card-footer-row">
+                <span class="stay-tag">✓ Verified Stay</span>
+                <span class="date-tag">Dec 2024</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 4 -->
+          <div class="slide-card">
+            <div class="testimonial-card">
+              <div class="top-row">
+                <div class="profile-left">
+                  <div class="avatar av-blue">B</div>
+                  <div>
+                    <div class="reviewer-name">Brandi Patel</div>
+                    <div class="reviewer-sub">Extended Stay Guest</div>
+                  </div>
+                </div>
+                <div class="stars-col">
+                  <div class="stars">★★★★★</div>
+                  <div class="google-tag">via Google</div>
+                </div>
+              </div>
+              <div class="quote-wrap">
+                <p class="review-text">Had the best relaxing experience. My family is American born & raised. Here we
+                  felt very safe & best of all the chef cooked American food for us absolutely perfection. We will be
+                  back for sure everytime we visit India. ❤️</p>
+              </div>
+              <div class="card-footer-row">
+                <span class="stay-tag">✓ Verified Stay</span>
+                <span class="date-tag">Jan 2025</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 5 -->
+          <div class="slide-card">
+            <div class="testimonial-card">
+              <div class="top-row">
+                <div class="profile-left">
+                  <div class="avatar av-blue">M</div>
+                  <div>
+                    <div class="reviewer-name">Monak Barot</div>
+                    <div class="reviewer-sub">Nature Enthusiast</div>
+                  </div>
+                </div>
+                <div class="stars-col">
+                  <div class="stars">★★★★★</div>
+                  <div class="google-tag">via Google</div>
+                </div>
+              </div>
+              <div class="quote-wrap">
+                <p class="review-text">We recently had the opportunity to stay at Trulyy The Jawai Leopard Kingdom, and
+                  I must say, it was an unforgettable experience! The stunning architecture, lush gardens, and serene
+                  surroundings set the tone for a relaxing getaway.</p>
+              </div>
+              <div class="card-footer-row">
+                <span class="stay-tag">✓ Verified Stay</span>
+                <span class="date-tag">Feb 2025</span>
+              </div>
+            </div>
+          </div>
+
+        </div><!-- /track -->
+      </div><!-- /shell -->
+
+      <!-- Nav -->
+      <div class="nav-wrap">
+        <button class="arr" id="btnPrev" aria-label="Previous">&#8592;</button>
+        <div class="step-indicators" id="stepDots"></div>
+        <button class="arr" id="btnNext" aria-label="Next">&#8594;</button>
+      </div>
+
+    </div>
+    <!-- /wrapper -->
+  </section>
+
+  <section class="petfriendly-section default-padding">
+    <div class="container">
+      <div class="petfriendly">
+        <a href="https://www.trulyy.in/#"><img src="images/pet-friendly.webp" loading="lazy"
+            class="img-fluid rounded-3" alt="pet friendly"></a>
+      </div>
+    </div>
+  </section>
+
+  <section class="wedding-section default-padding">
+    <div class="container">
+      <div class="row justify-content-between">
+        <!-- Left Section - Title -->
+        <div class="col-lg-5 col-md-12 mb-lg-0">
+          <h1 class="section-title">Stays Everyone's<br>Talking About</h1>
+        </div>
+
+        <!-- Right Section - Description -->
+        <div class="col-lg-4 col-md-12">
+          <p class="description-text">
+            Discover the most buzz-worthy stays everyone can’t stop talking about—handpicked for unforgettable
+            experiences. Explore trending getaways on Trulyy India, where comfort, style, and stories come together.
+          </p>
+        </div>
+      </div>
+
+      <!-- Cards Section -->
+      <div class="row mt-5 pt-4">
+        <!-- Destination Wedding Card -->
+        <div class="col-lg-4 col-md-6">
+          <div class="card-custom">
+            <div class="card-img-wrapper">
+              <img src="images/the-maharana-bagh-thumb.webp" loading="lazy" class="rounded" alt="Destination Wedding">
+              <div class="card-overlay">
+                <a href="trulyy-the-maharana-bagh.html" class="read-more-btn">Read
+                  More</a>
+              </div>
+            </div>
+            <h3 class="card-title-custom">Trulyy The Maharana Bagh</h3>
+            <p class="card-subtitle-custom">Udaipur, Rajasthan</p>
+          </div>
+        </div>
+
+        <!-- Corporate Meetings Card -->
+        <div class="col-lg-4 col-md-6">
+          <div class="card-custom">
+            <div class="card-img-wrapper">
+              <img src="images/amar-mahal.webp" loading="lazy" class="rounded" alt="Corporate Meetings">
+              <div class="card-overlay">
+                <a href="trulyy-the-amar-mahal.html" class="read-more-btn">Read More</a>
+              </div>
+            </div>
+            <h3 class="card-title-custom">Trulyy The Amar Mahal</h3>
+            <p class="card-subtitle-custom">Udaipur, Rajasthan</p>
+          </div>
+        </div>
+
+        <!-- Events Card -->
+        <div class="col-lg-4 col-md-6">
+          <div class="card-custom">
+            <div class="card-img-wrapper">
+              <img src="images/sakthi-vilas-thumb.webp" loading="lazy" class="rounded" alt="Events">
+              <div class="card-overlay">
+                <a href="trulyy-the-shakti-vilas.html" class="read-more-btn">Read
+                  More</a>
+              </div>
+            </div>
+            <h3 class="card-title-custom">Trulyy The Shakti Vilas</h3>
+            <p class="card-subtitle-custom">Udaipur, Rajasthan</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div id="site-footer"></div>
+  <!-- jQuery (required for Fancybox) -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <!-- Fancybox JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/custom.js"></script>
+  <script src="js/footer.js"></script>
+  <script>
+    $(document).ready(function () {
+      let loadCount = 0;
+      const hiddenRows = $('.hidden-row');
+      const loadMoreBtn = $('#loadMoreBtn');
+
+      loadMoreBtn.on('click', function () {
+        if (loadCount < hiddenRows.length) {
+          $(hiddenRows[loadCount]).removeClass('hidden-row').slideDown(600);
+          loadCount++;
+
+          if (loadCount >= hiddenRows.length) {
+            loadMoreBtn.text('No More Images').prop('disabled', true).css('opacity', '0.5');
+          }
+        }
+      });
+
+      // Initialize Fancybox
+      $('[data-fancybox="gallery"]').fancybox({
+        buttons: [
+          "zoom",
+          "slideShow",
+          "thumbs",
+          "close"
+        ],
+        loop: true,
+        protect: true,
+        animationEffect: "zoom-in-out",
+        transitionEffect: "slide"
+      });
+    });
+  </script>
+
+  <script>
+    const scrollContainer = document.getElementById('scrollContainer');
+    const videoBox = document.getElementById('videoBox');
+    const overlay = document.getElementById('overlay');
+
+    window.addEventListener('scroll', () => {
+      const containerRect = scrollContainer.getBoundingClientRect();
+      const containerHeight = scrollContainer.offsetHeight;
+      const viewportHeight = window.innerHeight;
+
+      // Calculate progress (0 to 1) based on how much of the container has passed the top
+      // We subtract viewportHeight to ensure progress hits 1 before the container leaves the screen
+      let scrollDistance = -containerRect.top;
+      let progress = scrollDistance / (containerHeight - viewportHeight);
+
+      // Clamp progress between 0 and 1
+      progress = Math.max(0, Math.min(1, progress));
+
+      // 1. Handle Video Width (from 640px to 100%)
+      // We use 80% of the scroll journey for the width expansion
+      let widthProgress = Math.min(1, progress / 0.8);
+      let startWidth = 640;
+      let endWidth = window.innerWidth;
+      let currentWidth = startWidth + (endWidth - startWidth) * widthProgress;
+
+      videoBox.style.width = `${currentWidth}px`;
+
+      // Remove border radius as it goes full screen
+      videoBox.style.borderRadius = widthProgress >= 1 ? '0px' : '8px';
+
+      // 2. Handle Overlay Visibility
+      // Show overlay only when width hits 100% (progress > 0.8)
+      if (progress > 0.8) {
+        overlay.classList.add('visible');
+      } else {
+        overlay.classList.remove('visible');
+      }
+    });
+  </script>
+
+  <script>
+    document.getElementById('loadBtn').addEventListener('click', function () {
+      const btn = this;
+      const loader = document.getElementById('loader');
+      const content = new bootstrap.Collapse(document.getElementById('moreRow'), { toggle: false });
+
+      btn.style.display = 'none';
+      loader.style.display = 'block';
+
+      // Simulate a network delay for premium feel
+      setTimeout(() => {
+        loader.style.display = 'none';
+        content.show();
+      }, 800);
+    });
+  </script>
+
+</body>
+
+</html>

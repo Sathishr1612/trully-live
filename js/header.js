@@ -22,6 +22,7 @@
               <div class="mega-column">
                 <a href="trulyy-the-kanooja-palace.html" class="nav-dropdown-item">Trulyy The Kanooja Palace <small class='d-block text-primary'>Kumbhalgarh</small></a>
                 <a href="trulyy-the-kumbha-residency.html" class="nav-dropdown-item">Trulyy The Kumbha Residency <small class='d-block text-primary'>Kumbhalgarh</small></a>
+                <a href="trulyy-the-kumbha-vilas.html" class="nav-dropdown-item">Trulyy The Kumbha Vilas <small class='d-block text-primary'>Kumbhalgarh</small></a>
                 <a href="trulyy-the-shakti-vilas.html" class="nav-dropdown-item">Trulyy The Shakti Vilas <small class='d-block text-primary'>Udaipur</small></a>
               </div>
               <div class="mega-column">
@@ -110,6 +111,7 @@
         <div class="mobile-dropdown">
           <a href="trulyy-the-kanooja-palace.html" class="mobile-dropdown-item">Trulyy The Kanooja Palace, Kumbhalgarh</a>
           <a href="trulyy-the-kumbha-residency.html" class="mobile-dropdown-item">Trulyy The Kumbha Residency, Kumbhalgarh</a>
+          <a href="trulyy-the-kumbha-vilas.html" class="mobile-dropdown-item">Trulyy The Kumbha Vilas, Kumbhalgarh</a>
           <a href="trulyy-the-shakti-vilas.html" class="mobile-dropdown-item">Trulyy The Shakti Villas, Udaipur</a>
           <a href="trulyy-the-amar-mahal.html" class="mobile-dropdown-item">Trulyy The Amar Mahal, Udaipur</a>
           <a href="trulyy-the-maharana-bagh.html" class="mobile-dropdown-item">Trulyy The Maharana Bagh, Udaipur</a>

@@ -28,6 +28,7 @@
                   <ul class="footer-list">
                     <li><a href="trulyy-the-kanooja-palace.html">Trulyy The Kanooja Palace, Kumbhalgarh</a></li>
                     <li><a href="trulyy-the-kumbha-residency.html">Trulyy The Kumbha Residency, Kumbhalgarh</a></li>
+                    <li><a href="trulyy-the-kumbha-vilas.html">Trulyy The Kumbha Vilas, Kumbhalgarh</a></li>
                     <li><a href="trulyy-the-amar-mahal.html">Trulyy The Amar Mahal, Udaipur</a></li>
                     <li><a href="trulyy-the-shakti-vilas.html">Trulyy The Shakti Vilas, Udaipur</a></li>
                     <li><a href="trulyy-the-maharana-bagh.html">Trulyy The Maharana Bagh, Udaipur</a></li>
